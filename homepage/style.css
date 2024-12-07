@@ -34,7 +34,7 @@ html {
 
 .nav-link:hover, .nav-link:active {
   color: #FEF375;
-  transform: scale(1.1);
+  transform: scale(0.970);
 }
 
 .navbar-toggler {
@@ -120,7 +120,7 @@ p {
 .page-btn:hover {
   background-color: #00cefd;
   border: 2px solid black;
-  transform: scale(1.015);
+  transform: scale(0.970);
 }
 
 .contact-btn {
@@ -135,7 +135,7 @@ p {
   color: black;
   border: 2px solid black;
   background-color: #ecdf4e;
-  transform: scale(1.015);
+  transform: scale(0.970);
 }
 
 /* 404 */
