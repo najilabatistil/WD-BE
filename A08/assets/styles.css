@@ -1,0 +1,180 @@
+@import url(https://db.onlinewebfonts.com/c/2206d6cc490084998d531e8c1b2cbb4a?family=Druk+Wide+Bold); 
+@import url(https://db.onlinewebfonts.com/c/fe02bfc5f3b1c47a45f3167457958cbe?family=Nuckle); 
+
+/* Scroll Padding */
+html {
+  scroll-padding-top: 30px;
+}
+
+/* General */
+body {
+  background-color: #F9F0DF;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+.display-5, h3 {
+  font-family: 'Druk Wide Bold';
+  color: #2C2A25;
+}
+
+h4 {
+  font-family: 'Druk Wide Bold';
+  color: #F9F0DF;
+}
+
+p {
+  font-family: 'Nuckle';
+  font-size: 1rem;
+  color: #2C2A25;
+}
+
+/* Header */
+.header-link {
+  font-family: 'Nuckle';
+  font-size: 1.25rem;
+  color: #2C2A25;
+  text-decoration: none;
+  transition: text-decoration 0.3s;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
+
+.header-container {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+}
+
+.header-img {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  padding: 75px 5px;
+}
+
+/* Navbar */
+.bar {
+  background-color: #2C2A25;
+  font-family: 'Druk Wide Bold';
+  color: #F9F0DF;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.w3-button:hover, .dropdown-menu, .w3-dropdown-hover:hover > .w3-button:first-child,
+.w3-dropdown-click:hover > .w3-button:first-child {
+  color: #2C2A25 !important;
+  background-color: #eddec3 !important;
+}
+
+.dropdown-item:hover {
+  color: #eddec3;
+  background-color: #2C2A25;
+}
+
+/* Content */
+.card {
+  height: 260px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.015);
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.15);
+}
+
+.img-container {
+  position: relative;
+  transition: all 0.8s ease;
+}
+
+.img-text {
+  color: #F9F0DF;
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0;
+  transition: all 0.8s ease;	
+}
+
+.img-container:hover img {
+  transform: scale(1.015);
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.15);
+  filter: brightness(45%);
+}
+
+.img-container:hover .img-text {
+  opacity: 1;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1050px) {
+  .header-container {
+    height: 60vh;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-container {
+    height: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .img-responsive {
+    width: 75%;
+  }
+}
+
+@media (max-width: 430px) {
+  .header-container {
+    padding: 35px 5px;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+
+  .header-link, .dropdown-menu {
+    font-size: 0.8rem;
+  }
+
+  .bar {
+    font-size: 0.75rem;
+  }
+
+  .card-img {
+    width: 100%;
+    height: auto;
+  }
+}
