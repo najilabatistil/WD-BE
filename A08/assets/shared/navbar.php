@@ -12,6 +12,7 @@
         ?>
       </ul>
     </div>
+    
     <a href="../" class="w3-bar-item w3-button">My Portfolio</a>
   </div>
 </div>
