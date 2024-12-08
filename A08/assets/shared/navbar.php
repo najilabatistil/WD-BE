@@ -3,7 +3,7 @@
     <a href="./" class="w3-bar-item w3-button">Home</a>
 
     <div class="w3-dropdown-click dropdown-center">
-      <button class="w3-button dropdown-toggle island-dropdown" type="button" data-bs-toggle="dropdown">Islands</button>
+      <button class="w3-button dropdown-toggle" type="button" data-bs-toggle="dropdown">Islands</button>
       <ul class="dropdown-menu">
         <?php
         foreach ($islands as $islandInfo) {

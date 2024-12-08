@@ -14,7 +14,7 @@ function createProjectCard() {
 
     container.innerHTML += 
     `
-      <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center my-3 wow animate__animated animate__fadeInUp" data-wow-delay="`+ (0.3 * i) + `s"> 
+      <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center my-3 wow animate__animated animate__fadeInUp" data-wow-delay="`+ (0.3 * i) + `s" data-wow-duration="1s"> 
         <div class="card h-100">
           <img src="homepage/img/thumbnails/` + project.thumbnail + `" class="card-img-top" style="border-bottom: 2px solid black">
           <div class="card-body d-flex flex-column align-items-center my-auto">
