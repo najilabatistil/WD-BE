@@ -1,7 +1,7 @@
 <?php
-  include("assets/shared/connect.php");
+  include("assets/php/connect.php");
   include("assets/php/classes.php");
-  include("assets/php/islands.php");
+  include("assets/php/islandsQuery.php");
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +36,7 @@
   </header>
 
   <!-- Navbar -->
-  <?php include("assets/shared/navbar.php");?>
+  <?php include("assets/php/navbar.php");?>
 
   <!-- Page content -->
   <div class="w3-content w3-padding-large w3-margin-top" id="islands">
