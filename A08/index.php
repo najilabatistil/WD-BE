@@ -1,7 +1,7 @@
 <?php
   include("assets/php/connect.php");
   include("assets/php/classes.php");
-  include("assets/php/islandsQuery.php");
+  include("assets/php/islands.php");
 ?>
 
 <!DOCTYPE html>
