@@ -1,5 +1,5 @@
 <?php
-class islandCard {
+class IslandCard {
   public $islandID;
   public $name;
   public $shortDesc;
@@ -45,7 +45,7 @@ class islandCard {
   }
 }
 
-class islandContent {
+class IslandContent {
   public $islandID;
   public $islandName;
   public $islandImage;

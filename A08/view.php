@@ -1,8 +1,8 @@
 <?php
   include("assets/php/connect.php");
   include("assets/php/classes.php");
-  include("assets/php/islands.php");
-  include("assets/php/content.php");
+  include("assets/php/islands_query.php");
+  include("assets/php/content_query.php");
 ?>
 
 <!DOCTYPE html>
